@@ -1,0 +1,68 @@
+{
+  "name": "hydra-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^2.7.5",
+    "@devexpress/dx-react-scheduler": "^2.7.5",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.7.5",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "@toast-ui/react-calendar": "^1.0.5",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "cra-append-sw": "^2.7.0",
+    "d3": "^6.6.1",
+    "d3-ease": "^2.0.0",
+    "dateformat": "^4.5.1",
+    "dotenv": "^10.0.0",
+    "iso-date-formatter": "^2.0.2",
+    "lottie-web": "^5.7.6",
+    "progress-bar-animated": "^1.0.2",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.1",
+    "react-move": "^6.4.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "redux": "^4.1.0",
+    "serve": "^12.0.0",
+    "styled-components": "^5.2.1",
+    "tui-calendar": "^1.13.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.10",
+    "web-push": "^3.4.5",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cra-append-sw --skip-compile ./public/custom-sw.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+export const COLLECT_USER_DATA = "COLLECT_USER_DATA";
+export const COLLECT_USER_TOKEN = "COLLECT_USER_TOKEN";
+export const RESET_DATA = "RESET_DATA";

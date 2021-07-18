@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 20px !important;
+  }
+  
+  .btn-primary {
+    background-color: #3B6F35 !important;
+    color: #FFF !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #F5F5F5 !important;
+    color: #3B6F35 !important;
+  }

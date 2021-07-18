@@ -1,0 +1,21 @@
+.root {
+    min-height: 100vh;
+  }
+  
+  .register-bg {
+    background-image: url('/src/assets/register_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .landing-bg {
+    background-image: url('/src/assets/landingBG.png');
+    background-repeat: no-repeat; 
+  }
+  
+  @media only screen and (max-width: 989px) {
+    .register-bg {
+      background-image: none;
+    }
+  }
